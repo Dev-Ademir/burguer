@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <header>
+        <button class="menu"> 📋<br> Menu </button>
+        <button class="prom-map"> 🎯<br> Promoção </button>
+        <button class="filtro-vegano"> 🌱<br> Vegano </button>
+        <button class="filtro-ave"> 🐔<br> Aves </button>
+        <button class="filtro-carne"> 🍔<br> Carne </button>
+        <button class="total"> 💰<br> Valor Total </button>
+    </header>
+    <main class="conteiner-buttons">
+        <ul>
+            <!--<li>
+                <img src="./assets/Bacon Supreme.png">
+                <p>Bacon Supreme</p>
+                <p>R$ 33,00</p>
+            </li>
+            <li class="item" 
+                data-nome="X-Salada"
+                data-preco="30"
+                data-tipo="carne"
+                data-categoria="hamburguer">
+                <img src="./assets/xsalada.jpeg">
+                <p>X-Salada</p>
+                <p>R$ 30,00</p>
+            </li>
+        -->
+        </ul>
+    </main>
+    <!-- Ícone do Carrinho -->
+    <div class="cart-icon" id="cartIcon">
+        🛒 <span class="cart-count" id="cartCount">0</span>
+    </div>
+
+    <!-- Modal do Carrinho -->
+    <div class="cart-modal" id="cartModal">
+        <div class="cart-modal-content">
+            <div class="cart-header">
+                <h2>🛒 Meu Carrinho</h2>
+                <span class="close-cart" id="closeCart">&times;</span>
+            </div>
+            <div class="cart-items" id="cartItems">
+                <!-- Itens do carrinho serão inseridos aqui -->
+            </div>
+            <div class="cart-footer">
+                <div class="cart-total">
+                    <strong>Total:</strong> <span id="cartTotal">R$ 0,00</span>
+                </div>
+                <div class="button-group">
+                    <button class="clear-cart" id="clearCart">🗑️ Limpar</button>
+                    <button class="checkout-btn" id="checkoutBtn">✅ Finalizar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<script src="produtos.js"></script>
+<script src="script.js"></script>
+
+</html>
