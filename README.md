@@ -22,7 +22,9 @@ Aplicação frontend que simula um cardápio online completo, com exibição de 
 
 ## 🚀 Como Visualizar
 
-1. Acesse: `https://dev-ademir.github.io/burguer` (se tiver deploy)
+1. ## 🔗 Acesso Online
+
+**[Clique aqui para usar](https://dev-ademir.github.io/burguer/)
 2. Ou clone o repositório:
    ```bash
    git clone https://github.com/Dev-Ademir/burguer.git
